@@ -1,0 +1,39 @@
+/* Genel Stiller */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #141e30, #243b55);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1e2a38;
+}
+
+.navbar a {
+    color: #00d4ff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background: #00d4ff;
+    color: #1e2a38;
+}
+
+/* Diğer bölümler */
+.post-container, .chat-container, .login-container, .signup-container, .profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #1e2a38;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
